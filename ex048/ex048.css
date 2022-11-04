@@ -1,0 +1,30 @@
+body    {background-color: bisque;font-family: Arial, Helvetica, sans-serif;}
+
+div {background-color: grey;
+    position: absolute;
+    border: 1px solid black;
+    padding: 50px;padding-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 330px;
+    width: 400px;}
+
+        .p1{background-color:white;
+        padding: 10px;
+        border: 1px solid black;text-align: justify; border-radius: 10px;}
+
+        .f1{color: white; text-align: center;
+        border: 1px solid greenyellow;}
+
+        .leg1{color: greenyellow;}
+
+        .f2{color: white; text-align: center;
+        border: 1px solid greenyellow;}
+
+        .leg2{color: greenyellow;}
+
+        #texto{
+        outline: none;
+        border-radius: 10px;border: none;
+        }

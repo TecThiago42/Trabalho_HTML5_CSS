@@ -1,0 +1,90 @@
+
+body{background-image: linear-gradient(45deg,rgb(255, 179, 192), rgb(103, 217, 255));font-family: serif;}
+
+div.form
+    {position: absolute; background-image: linear-gradient(-45deg,rgb(255, 179, 192),rgb(103, 217, 255)) ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 10px white;}
+
+fieldset
+    {border: 5px solid white;
+    border-radius: 5px;
+    border-style: dashed;
+
+    }
+.l1
+    {text-align: center;
+    border: 4px solid white;
+    border-style: dashed;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;}
+
+.p1
+    {text-align: center;
+    font-weight: bold;}
+    
+#username
+    {outline: none;
+    border: none;
+    width: 100%;
+    padding: 2px;
+    margin-top: 3px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;}
+
+.p2
+    {text-align: center;
+    font-weight: bold;}
+
+.sel1
+{outline: none;
+    border: none;
+    width: 100%;
+    padding: 2px;
+    margin-top: 3px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;}
+.p3
+    {text-align: left;
+    font-weight: bold;}
+    
+.p4{text-align: center;}
+
+.p5
+    {text-align: left;
+    font-weight: bold;}
+
+ #email
+    {outline: none;
+    border: none;
+    width: 100%;
+    padding: 2px;
+    margin-top: 3px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;}
+
+.p6
+    {text-align: left;
+    font-weight: bold;}
+
+#areatexto  
+    {outline: none;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;}    

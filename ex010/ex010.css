@@ -1,0 +1,9 @@
+body { background-color:BLACK;text-align: center; }
+h1{color: red;}
+p{color: azure;}
+.troll{color:red;}
+img{ border: 5px solid red;}
+a:link { color:blue } /* links não visitados */
+a:visited { color: RED } /* links visitados */
+a:hover {font-weight: bolder;color: limegreen;} /* user hovers */
+a:active { color: lime } /* links ativos */

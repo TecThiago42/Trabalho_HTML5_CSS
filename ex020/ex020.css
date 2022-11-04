@@ -1,0 +1,20 @@
+body{background-color: black;}
+div.img1
+    {  position: absolute; top: 50%;left: 50%;transform: translate(-50%, -50%);
+}
+p{color: aliceblue;text-align: center;}
+a:link { color:blue } /* links não visitados */
+a:visited { color: RED } /* links visitados */
+a:hover {font-weight: bolder;color: limegreen;} /* user hovers */
+a:active { color: lime } /* links ativos */
+
+table {
+position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);
+}
+
+td{ border: 1px solid black;padding: 50px;}
+
+td{
+background-color: yellow;
+color: red; text-align: center;
+}

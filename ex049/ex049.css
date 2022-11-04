@@ -1,0 +1,13 @@
+body{background-color: black;font-family: Arial, Helvetica, sans-serif;color: aliceblue;}
+div{
+width: 100%;
+}
+
+.h1{text-align: justify;
+margin-left: 5px;}
+
+.h2{margin-left: 5px;text-align: left;}
+
+.h3{margin: auto; text-align: center;}
+
+.h4{margin-right: 5px;text-align: right;}

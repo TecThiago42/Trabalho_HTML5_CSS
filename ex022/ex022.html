@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex022</title>
+    <link rel="stylesheet" href="ex022.css">
+</head>
+<body>
+    <div class="form">
+        <form autocomplete="off">
+            <fieldset>
+                <Legend class="l1">INFORMAÇOES DO USUARIO</Legend>
+        
+            <p class="p1"><label for="username">Qual seu nome? </label><input type="text" nome="nome"  id="username" placeholder="Nome"></p>
+            <p class="p2">
+                <br>
+                Qual sua idade?
+                <br>
+                <select class="sel1" name="idade" id="idade">
+                    <option value="0">Escolha sua idade</option>
+                    <option value="0">Entre 0 e 18 anos</option>
+                    <option value="0">Entre 19 e 25 anos</option>
+                    <option value="0">Entre 26 e 35 anos</option>
+                    <option value="0">36 anos ou Mais</option>
+                </select>
+                <br>
+            </p>
+            <p class="p3">Qual seu Sexo?</p> 
+            <p class="p4">
+                <input type="radio" id="MASCULINO" name="genero"><label for="MASCULINO">MASCULINO</label>
+                <input type="radio" id="FEMININO" name="genero"><label for="FEMININO">FEMININO</label>
+                <input type="radio" id="OUTROS" name="genero"><label for="OUTROS">OUTROS</label>
+            </p>
+            <p class="p5">
+                Email: <input type="text" name="email" id="email" maxlength="80" placeholder="  Seu endereço de Email...    ">
+            </p>
+            <p class="p6">
+                Observações:
+                <br>
+                <textarea name="areatexto" id="areatexto" cols="40" rows="7" placeholder="  Deixe aqui sua Opnião..."></textarea></p>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
